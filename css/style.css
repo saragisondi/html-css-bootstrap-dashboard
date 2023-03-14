@@ -5,3 +5,17 @@
   border: 1px solid black;
 }
 
+/*HEADER*/
+header{
+  background-color: #FFFFFF;
+  padding: 15px 0;
+}
+
+/*NAV*/
+nav input{
+  width: 100%;
+}
+
+button i{
+  border-style: none;
+}
