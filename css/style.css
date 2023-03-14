@@ -7,6 +7,7 @@
 
 a{
   text-decoration: none;
+  color: white;
 }
 
 /*HEADER*/
@@ -41,12 +42,27 @@ button{
   color:#FF8F00;
 }
 
+/*MAIN*/
+
 /*ASIDE*/
 aside{
   background-color: #132940;
 }
 
 aside a{
-  color: white;
   padding: 10px 5px;
+}
+
+/*MAIN-RIGHT*/
+.main-right .row.top{
+  background-color: #1B72E8;
+}
+
+.fa-plus{
+  font-size: 15px;
+  border: 1px solid white;
+  padding: 5px 8px;
+  vertical-align: middle;
+  margin: 0 10px;
+  border-radius: 5px;
 }
