@@ -14,8 +14,16 @@ header{
 /*NAV*/
 nav input{
   width: 100%;
+  background-color: #E5E5E5;
+  border-style: none;
+  padding:4px;
 }
 
-button i{
+button{
   border-style: none;
+  background-color: #E5E5E5;
+}
+
+.fa-bell{
+  color:#FF8F00;
 }
