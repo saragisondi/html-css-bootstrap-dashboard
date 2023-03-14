@@ -58,11 +58,13 @@ aside a{
   background-color: #1B72E8;
 }
 
-.main-right .boolean span{
+.main-right .boolean span, .boolean-app{
   background-color:#165BBA ;
   padding:5px 10px;
   border-radius: 15px;
+  margin: 0 2px;
 }
+
 
 .fa-regular.fa-plus{
   border: 1px solid white;
