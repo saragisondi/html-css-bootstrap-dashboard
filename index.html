@@ -26,8 +26,8 @@
         <div class="nav row justify-content-center align-items-center">
 
           <div class="left col-2">
-            <img class="img-fluid d-none d-md-block" src="img/logo.svg" alt="logo">
-            <img class="img-fluid d-md-none" src="img/mobile-logo.png" alt="">
+            <a href="#"><img class="img-fluid d-none d-md-block" src="img/logo.svg" alt="logo"></a>
+            <a href="#"><img class="img-fluid d-md-none" src="img/mobile-logo.png" alt="logo"></a>
           </div>
 
           <div class="center col-8 d-flex justify-content-center ">
@@ -38,14 +38,12 @@
 
           <div class="right col-2 d-flex justify-content-end ">
           
-            <div class="sg-icon d-none d-lg-block "><i class="fa-solid fa-list-ul"></i></div>
-            <div class="sg-icon d-none d-lg-block "><i class="fa-solid fa-circle-question"></i></div>
-            <div class="sg-icon d-none d-lg-block "><i class="fa-solid fa-ellipsis-vertical"></i></div>
-            <div class="sg-icon"> <i class="fa-solid fa-bell"></i></div>
+            <div class="sg-icon d-none d-lg-block "><a href="#"><i class="fa-solid fa-list-ul"></i></a></div>
+            <div class="sg-icon d-none d-lg-block "><a href="#"><i class="fa-solid fa-circle-question"></i></a></div>
+            <div class="sg-icon d-none d-lg-block "><a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a></div>
+            <div class="sg-icon"> <a href="#"><i class="fa-solid fa-bell"></i></a></div>
               
             </div>
-
-           
             
           </div>
 
@@ -61,7 +59,36 @@
       <div class="aside container-fluid ">
 
         <div class="row vh-100">
-          <aside class="main-left col-3 debug"></aside>
+          <aside class="main-left col-3 d-flex flex-column justify-content-between ">
+
+            <div class="row top py-4">
+              <div class="icon-top d-flex align-items-center">
+              <a href="#"><i class="fa-solid fa-house"></i></a>
+              <a class="d-none d-lg-block" href="#">Home</a>
+              </div>
+
+              <div class="icon-top d-flex align-items-center">
+                <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                <a class="d-none d-lg-block" href="#">Stats</a>
+              </div>
+
+              <div class="icon-top d-flex align-items-center">
+                <a href="#">
+                  <i class="fa-solid fa-signal"></i>
+                </a>
+                <a class="d-none d-lg-block" href="#">Signals</a>
+              </div>
+
+            </div>
+
+            <div class="row bottom">
+              <div class="icon-bottom d-flex align-items-center">
+                <a href="#"><i class="fa-sharp fa-solid fa-gear"></i></a>
+                <a class="d-none d-lg-block" href="#">Admin</a>
+              </div>
+            </div>
+
+          </aside>
           <div class="main-right col-9 debug"></div>
         </div>
 

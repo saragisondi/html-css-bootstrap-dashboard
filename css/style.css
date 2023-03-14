@@ -5,11 +5,16 @@
   border: 1px solid black;
 }
 
+a{
+  text-decoration: none;
+}
+
 /*HEADER*/
 header{
   background-color: #FFFFFF;
   padding: 15px 0;
 }
+
 
 /*NAV*/
 nav input{
@@ -24,8 +29,11 @@ button{
   background-color: #E5E5E5;
 }
 
-.sg-icon{
+.sg-icon a{
   color: #5A5757;
+}
+
+.sg-icon{
   padding: 0 10px;
 }
 
@@ -33,3 +41,12 @@ button{
   color:#FF8F00;
 }
 
+/*ASIDE*/
+aside{
+  background-color: #132940;
+}
+
+aside a{
+  color: white;
+  padding: 10px 5px;
+}
