@@ -58,11 +58,17 @@ aside a{
   background-color: #1B72E8;
 }
 
-.fa-plus{
-  font-size: 15px;
+.main-right .students span{
+  background-color:#165BBA ;
+  padding:5px 10px;
+  border-radius: 15px;
+}
+
+.fa-regular.fa-plus{
   border: 1px solid white;
-  padding: 5px 8px;
+  font-size: 15px;
+  padding: 12px 15px;
   vertical-align: middle;
-  margin: 0 10px;
+  margin:5px 25px;
   border-radius: 5px;
 }
