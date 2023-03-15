@@ -206,3 +206,39 @@ aside{
 .content-bottom{
   height: 70%;
 }
+
+/*TABLE*/
+.table img{
+  width: 25px;
+}
+.table i{
+  color: #6C757D;
+  border:1px solid #6C757D;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.table thead th{
+  font-weight: 500;
+}
+
+
+/*TABLE BUTTON*/
+.table button{
+  padding: 0 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.table .done{
+  background-color:#198754 ;
+}
+
+.table .process{
+  background-color:#FFBD00;
+}
+
+.table .falled{
+  background-color:#DC3545 ;
+}
