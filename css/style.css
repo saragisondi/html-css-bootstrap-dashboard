@@ -17,19 +17,7 @@ header{
 }
 
 
-/*NAV*/
-/*nav input{
-  width: 100%;
-  background-color: #E5E5E5;
-  border-style: none;
-  padding:4px;
-}
-
-button{
-  border-style: none;
-  background-color: #E5E5E5;
-}
-
+/*NAV
 .sg-icon a{
   color: #5A5757;
 }
@@ -90,8 +78,13 @@ img{
 
 /*NAV*/
 nav{
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left:0;
+  z-index:999;
 }
 
 nav .input{
@@ -104,7 +97,39 @@ nav .logo, .icons{
   height: 100px; 
 }
 
+/*LOGO*/
 nav .logo-mobile{
   width: 70px ;
   vertical-align: middle;
+}
+
+/*INPUT*/
+nav input{
+  width: 80%;
+  border-style: none;
+  padding:4px;
+  background-color: #E5E5E5;
+}
+
+nav button{
+  width: 95%;
+  border-style: none;
+  background-color: #E5E5E5;
+  padding: 5px 0;
+  text-align: left;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+/*ICONS*/
+.sg-icon a{
+  color: #5A5757;
+}
+
+.sg-icon{
+  padding: 0 10px;
+}
+
+.fa-bell{
+  color:#FF8F00;
 }
