@@ -63,6 +63,7 @@ aside a{
 
 body{
   height: 100vh;
+
 }
 
 img{
@@ -142,13 +143,12 @@ nav button{
 /*MAIN*/
 main{
   display: flex;
-  height:calc( 100% - 100px );
 }
 
 /*ASIDE*/
 aside{
   width: 150px;
-  height:100%;
+  height:100vh;
   display: flex;  
   flex-direction: column;
   justify-content: space-between;
@@ -171,12 +171,14 @@ aside{
 /*CONTENT*/
 .content{
   width: calc(100% - 150px);
+  background-color: #F8F9FA;
 }
 
 /*CONTENT-TOP*/
 .content-top{
   background-color: #1A6EE1;
   color:white;
+  padding: 0 10px;
 }
 
 .content-top button{
@@ -192,7 +194,6 @@ aside{
   border: 1px solid white;
   border-radius: 5px;
   background-color: #1A6EE1;
-  margin: 0 15px;
 }
 
 .app button{
