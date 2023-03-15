@@ -61,13 +61,16 @@ aside a{
   box-sizing: border-box;
 }
 
-
 body{
   height: 100vh;
 }
 
 img{
   max-width: 100%;
+}
+
+button{
+  border-style: none;
 }
 
 .main-wrapper{
@@ -116,7 +119,6 @@ nav input{
 
 nav button{
   width: 95%;
-  border-style: none;
   background-color: #E5E5E5;
   padding: 5px 0;
   text-align: left;
@@ -175,23 +177,30 @@ aside{
 .content-top{
   height: 30%;
   background-color: #1A6EE1;
+  color:white;
 }
 
-.content-top .add-new h3{
-  display: inline;
+.content-top button{
+  color:white;
+}
+
+.content-top p{
+  display: inline-block;
 }
 
 .content-top .add-new button{
   padding: 3px 10px;
-  border-style: none;
   border: 1px solid white;
   border-radius: 5px;
   background-color: #1A6EE1;
   margin: 0 15px;
 }
 
-.content-top .add-new i{
-  color:white
+.app button{
+  padding: 0 10px;
+  border-radius: 15px;
+  background-color: #1453AA;
+  margin: 0 5px;
 }
 
 /*CONTENT-BOTTOM*/
