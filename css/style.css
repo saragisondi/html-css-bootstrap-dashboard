@@ -203,10 +203,11 @@ aside{
 }
 
 /*CONTENT-BOTTOM*/
-.content-bottom{
-  height: 70%;
-}
 
+.container .col h3{
+  border: 1px solid black;
+  padding: 10px 10px;
+}
 /*TABLE*/
 .table img{
   width: 25px;
