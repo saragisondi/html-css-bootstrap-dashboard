@@ -18,7 +18,7 @@ header{
 
 
 /*NAV*/
-nav input{
+/*nav input{
   width: 100%;
   background-color: #E5E5E5;
   border-style: none;
@@ -45,7 +45,7 @@ button{
 /*MAIN*/
 
 /*ASIDE*/
-aside{
+/*aside{
   background-color: #132940;
 }
 
@@ -54,7 +54,7 @@ aside a{
 }
 
 /*MAIN-RIGHT*/
-.main-right .row.top{
+/*.main-right .row.top{
   background-color: #1B72E8;
 }
 
@@ -73,4 +73,38 @@ aside a{
   vertical-align: middle;
   margin:5px 25px;
   border-radius: 5px;
+}**/
+
+/*GENERAL*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+}
+
+/*HEADER*/
+
+/*NAV*/
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .input{
+  width: 60%;
+  height: 100px;
+}
+
+nav .logo, .icons{
+  width: 20%;
+  height: 100px; 
+}
+
+nav .logo-mobile{
+  width: 70px ;
+  vertical-align: middle;
 }
