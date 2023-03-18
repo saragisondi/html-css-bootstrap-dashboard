@@ -104,6 +104,7 @@ aside a{
 main{
   width: calc( 100% - 150px );
   background-color: #F8F9FA;
+  margin-left: 10px;
 }
 
 .row.top{
@@ -171,7 +172,6 @@ main{
   padding: 0 10px;
   border-radius: 10px;
   color: white;
-  
 }
 
 .table .done{
@@ -186,61 +186,4 @@ main{
   background-color:#DC3545 ;
 } 
 
-/*MAIN-RIGHT*/
-/*.main-right .row.top{
-  background-color: #1B72E8;
-}
-
-.main-right .boolean span, .boolean-app{
-  background-color:#165BBA ;
-  padding:5px 10px;
-  border-radius: 15px;
-  margin: 0 2px;
-}
-
-
-**/
-
-
-/*MAIN*/
-/* main{
-  display: flex;
-} */
-
-
-/*CONTENT-TOP*/
-/* .content-top{
-  background-color: #1A6EE1;
-  color:white;
-  padding: 0 10px;
-}
-
-.content-top button{
-  color:white;
-}
-
-.content-top p{
-  display: inline-block;
-}
-
-.content-top .add-new button{
-  padding: 3px 10px;
-  border: 1px solid white;
-  border-radius: 5px;
-  background-color: #1A6EE1;
-}
-
-.app button{
-  padding: 0 10px;
-  border-radius: 15px;
-  background-color: #1453AA;
-  margin: 0 5px;
-}
-
-/*CONTENT-BOTTOM*/
-
-/* .container .col h3{
-  border: 1px solid black;
-  padding: 10px 10px;
-} */ 
 
