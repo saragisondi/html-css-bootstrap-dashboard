@@ -186,4 +186,11 @@ main{
   background-color:#DC3545 ;
 } 
 
+/*OFFCANVAS*/
+.offcanvas{
+  width: 800px;
+}
 
+.offcanvas-body{
+  color:black;
+}
